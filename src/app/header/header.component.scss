@@ -1,0 +1,40 @@
+button,.btn,input[type=submit],input[type=button]{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    padding: 9px 20px;
+    background-color: #0a76ca;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Open Sans,sans-serif;
+    border-radius: 30px;
+    border: 1px solid #0a76ca;
+    height: auto;
+  }
+  .bg-info {
+    background-color: #3c3b3c!important;
+}
+  li.nav-item{
+    a{
+      font-size: 18px;
+      color: #fff;
+      font-weight: 600;
+    }
+    ul.dropdown-menu{
+  li{
+    a{
+      color:#000;
+      cursor: pointer;
+      
+    }
+    a:hover{
+      color:#0f0;
+      
+    }
+  }
+    }
+    ul.dropdown-menu:hover{
+      background-color: #0a76ca;
+    }
+
+  } 
