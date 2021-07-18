@@ -1,0 +1,72 @@
+<div class="routerBox">
+
+    <div class="productDetails">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="">
+                    <figure class="woocommerce-product-gallery__wrapper owl-carousel owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                style="transform: translate3d(0px, 0px, 0px); transition: all 0.25s ease 0s; width: 1100px;">
+                                <div class="owl-item active" style="width: 550px;">
+                                    <figure 
+                                        class="woocommerce-product-gallery__image"
+                                        style="position: relative; overflow: hidden;">
+                                        <a>
+                                            <img width="600" height="692" [src]="imgUrl"
+                                                class="wp-post-image wp-post-image" alt="" loading="lazy"
+                                                [title]="productName" data-caption="" data-src="imgUrl"
+                                                data-large_image="imgUrl" data-large_image_width="985"
+                                                data-large_image_height="1136" sizes="(max-width: 600px) 100vw, 600px">
+                                        </a><img role="presentation" alt="" [src]="imgUrl" class="zoomImg"
+                                            style="position: absolute; top: -364.227px; left: -187.05px; opacity: 0; width: 985px; height: 1136px; border: none; max-width: none; max-height: none;">
+                                    </figure>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="owl-nav disabled">
+                            <div class="owl-prev"></div>
+                            <div class="owl-next"></div>
+                        </div>
+                        <div class="owl-dots disabled"></div>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 summary entry-summary">
+                <div class="summary-inner ">
+                    <div class="basel-scroll-content">
+                        <div class="basel-product-brands "></div>
+                        <h1 itemprop="name" class="product_title entry-title">{{productName}}</h1>
+                        <p class="price"><del><span class="woocommerce-Price-amount amount"><bdi>
+                                        <span class="woocommerce-Price-currencySymbol">
+                                            ₹</span>{{mrp}}</bdi></span></del>
+                            <ins><span class="woocommerce-Price-amount amount"><bdi>
+                                        <span class="woocommerce-Price-currencySymbol">₹</span>{{sellPrice}}</bdi>
+                                </span></ins>
+                        </p>
+                        <div class="woocommerce-product-details__short-description">
+                            <p>{{prodDescription}}</p>
+                        </div>
+
+
+                        <form class="cart">
+
+                            <div class=""><button class="cart" type="submit">ADD TO CART</button></div>
+
+                        </form>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>

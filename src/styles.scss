@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+
+.text-link{
+    cursor: pointer;
+}
+.no-space{
+    margin: 0px;
+    padding: 0px;
+}
+.text-left{
+    text-align: left;
+}
+.routerBox{
+    margin:150px 10px 0px;
+    padding:10px 10px 20px;
+}
+
+.imageBox{
+    position: relative;
+.imgDiv{
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px 2px rgb(0 0 0 / 20%);
+img{
+    width: 100% !important;
+    height: 100% !important;
+}
+}
+
+.imgDiv:hover{
+	box-shadow: 2px 3px 6px 1px rgba(0,0,0,.5);
+    border: 1px solid #fdbf13;
+}
+
+.hover-mask{
+position: absolute;
+left: 36%;
+bottom: -14px;
+box-shadow: 1px 1px 3px rgb(136 136 136 / 19%);
+background-color: #fff;
+transform: translateX(-50%);
+-webkit-transform: translateX(-50%);
+
+button{
+border: none;
+padding: 10px 20px;
+background-color: #0f0
+}
+button:hover{
+    box-shadow: 5px 10px #fff;
+    background: #000;
+    color:#fff;
+}
+}
+}
+
+.price{
+    color: #212121;
+    font-weight: 600;
+    del{
+        font-weight: 400;
+       
+    }
+    del > .amount{
+        font-size: 14px;
+        color: #BDBDBD;
+        padding-right:5px;
+    }
+    }
+
+    button{
+        background-color: #000;
+        color:#fff;
+    }
+    button:hover{
+        background-color: #0f0;
+    }
+    button.cart{
+        background-color: #e5e5e5 !important;
+        color: #000 !important;
+        padding:10px 20px;
+        border: none;
+    }
+    button.cart:hover{
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+    .offerImageDiv{
+        padding:10px;
+        margin:10px;
+    }
