@@ -126,7 +126,7 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 24:{
-        this.imgUrl = 'assets/img/mixed-nut.jpg'
+        this.imgUrl = 'assets/img/canberriesRegency.png'
         break;
       }
       case 25:{
@@ -138,11 +138,11 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 27:{
-        this.imgUrl = 'assets/img/nuts_and_dried_fruit.jpg.png'
+        this.imgUrl = 'assets/img/apricatsRegency.jpg'
         break;
       }
       case 28:{
-        this.imgUrl = 'assets/img/nuts-dried.png'
+        this.imgUrl = 'assets/img/blueberriesRegency.png'
         break;
       }
       case 29:{
@@ -292,11 +292,11 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 24:{
-        this.productName = 'Mixed Nut';
+        this.productName = 'Regency Canberries';
         break;
       }
       case 25:{
-        this.productName = 'Regency Mix Dry Fruits';
+        this.productName = 'Trail Mix Dry Fruits';
         break;
       }
       case 26:{
@@ -304,11 +304,11 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 27:{
-        this.productName = 'Nuts And Dried Fruit';
+        this.productName = 'Regency Apricats';
         break;
       }
       case 28:{
-        this.productName = 'Dried Nuts';
+        this.productName = 'Regency Dried Blueberries';
         break;
       }
       case 29:{
@@ -458,11 +458,11 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 24:{
-        this.prodDescription= 'Mixed Nut';
+        this.prodDescription= 'Regency Canberries';
         break;
       }
       case 25:{
-        this.prodDescription = 'Regency Mix Dry Fruits';
+        this.prodDescription = 'Trail Mix Dry Fruits';
         break;
       }
       case 26:{
@@ -470,11 +470,11 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 27:{
-        this.prodDescription = 'Nuts And Dried Fruit';
+        this.prodDescription = 'Regency Apricats';
         break;
       }
       case 28:{
-        this.prodDescription = 'Dried Nuts';
+        this.prodDescription = 'Regency Dried Blueberries';
         break;
       }
       case 29:{
@@ -623,7 +623,7 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 24:{
-        this.mrp = 750.00;
+        this.mrp = 220.00;
         break;
       }
       case 25:{
@@ -784,7 +784,7 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 24:{
-        this.sellPrice = 650.00;
+        this.sellPrice = 160.00;
         break;
       }
       case 25:{
