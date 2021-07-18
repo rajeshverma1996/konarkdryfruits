@@ -149,6 +149,42 @@ export class ProductDetailsComponent implements OnInit {
         this.imgUrl = 'assets/img/makhana.jpeg'
         break;
       }
+      case 30:{
+        this.imgUrl = 'assets/img/cuminSpecial.jpg'
+        break;
+      }
+      case 31:{
+        this.imgUrl = 'aassets/img/panchPhoronSpecial.jpg'
+        break;
+      }
+      case 32:{
+        this.imgUrl = 'assets/img/musterdSeedsSpecial.jpg'
+        break;
+      }
+      case 33:{
+        this.imgUrl = 'assets/img/blackPepperSpecial.jpg'
+        break;
+      }
+      case 34:{
+        this.imgUrl = 'assets/img/cardamomSpecial.png'
+        break;
+      }
+      case 35:{
+        this.imgUrl = 'assets/img/cloveSpecial.jpg'
+        break;
+      }
+      case 36:{
+        this.imgUrl = 'assets/img/cinnamonRoundStick.jpg'
+        break;
+      }
+      case 37:{
+        this.imgUrl = 'assets/img/cinnamonRegular.jpg'
+        break;
+      }
+      case 38:{
+        this.imgUrl = 'assets/img/cherry.jpg'
+        break;
+      }
       
 
       default:{
@@ -279,6 +315,44 @@ export class ProductDetailsComponent implements OnInit {
         this.productName = 'Makhana';
         break;
       }
+      case 30:{
+        this.productName = 'Special Cumin';
+        break;
+      }
+      case 31:{
+        this.productName = 'Special Punch Phutan';
+        break;
+      }
+      case 32:{
+        this.productName = 'Special Mustard Seeds';
+        break;
+      }
+      case 33:{
+        this.productName = 'Special Black Pepper';
+        break;
+      }
+      case 34:{
+        this.productName = 'Special Cardamom(8 mm)';
+        break;
+      }
+      case 35:{
+        this.productName = 'Special Clove';
+        break;
+      }
+      case 36:{
+        this.productName = 'Round Stick Cinnamon';
+        break;
+      }
+      case 37:{
+        this.productName = 'Regular Cinnamon';
+        break;
+      }
+     
+      case 39:{
+        this.productName = 'Special Cherry(BIG SIZE)';
+        break;
+      }
+
 
 
       default:{
@@ -405,6 +479,42 @@ export class ProductDetailsComponent implements OnInit {
       }
       case 29:{
         this.prodDescription = 'Makhana';
+        break;
+      }
+      case 30:{
+        this.prodDescription = 'Special Cumin';
+        break;
+      }
+      case 31:{
+        this.prodDescription = 'Special Punch Phutan';
+        break;
+      }
+      case 32:{
+        this.prodDescription = 'Special Mustard Seeds';
+        break;
+      }
+      case 33:{
+        this.prodDescription = 'Special Black Pepper';
+        break;
+      }
+      case 34:{
+        this.prodDescription = 'Special Cardamom(8 mm)';
+        break;
+      }
+      case 35:{
+        this.prodDescription = 'Special Clove';
+        break;
+      }
+      case 36:{
+        this.prodDescription = 'Round Stick Cinnamon';
+        break;
+      }
+      case 37:{
+        this.prodDescription = 'Regular Cinnamon';
+        break;
+      }
+      case 38:{
+        this.prodDescription = 'Special Cherry(BIG SIZE)';
         break;
       }
 
@@ -536,6 +646,42 @@ export class ProductDetailsComponent implements OnInit {
         this.mrp = 750.00;
         break;
       }
+      case 30:{
+        this.mrp = 149.00;
+        break;
+      }
+      case 31:{
+        this.mrp = 135.00;
+        break;
+      }
+      case 32:{
+        this.mrp = 130.00;
+        break;
+      }
+      case 33:{
+        this.mrp = 200.00;
+        break;
+      }
+      case 34:{
+        this.mrp = 85.00;
+        break;
+      }
+      case 35:{
+        this.mrp = 75.00;
+        break;
+      }
+      case 36:{
+        this.mrp = 95.00;
+        break;
+      }
+      case 37:{
+        this.mrp = 70.00;
+        break;
+      }
+      case 38:{
+        this.mrp = 99.00;
+        break;
+      }
       default:{
         this.mrp = 0;
         break;
@@ -661,6 +807,47 @@ export class ProductDetailsComponent implements OnInit {
         this.sellPrice = 650.00;
         break;
       }
+      case 29:{
+        this.sellPrice = 650.00;
+        break;
+      }
+      case 30:{
+        this.sellPrice = 99.00;
+        break;
+      }
+      case 31:{
+        this.sellPrice = 70.00;
+        break;
+      }
+      case 32:{
+        this.sellPrice = 65.00;
+        break;
+      }
+      case 33:{
+        this.sellPrice = 150.00;
+        break;
+      }
+      case 34:{
+        this.sellPrice = 60.00;
+        break;
+      }
+      case 35:{
+        this.sellPrice = 45.00;
+        break;
+      }
+      case 36:{
+        this.sellPrice = 70.00;
+        break;
+      }
+      case 37:{
+        this.sellPrice = 40.00;
+        break;
+      }
+      case 38:{
+        this.sellPrice = 70.00;
+        break;
+      }
+
       
       default:{
         this.sellPrice = 0;

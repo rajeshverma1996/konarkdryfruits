@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+
 import { ComboOfferComponent } from './combo-offer/combo-offer.component';
+import { DriedFruitsComponent } from './dried-fruits/dried-fruits.component';
 import { DryFruitsComponent } from './dry-fruits/dry-fruits.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { NutsComponent } from './nuts/nuts.component';
 import { OffersComponent } from './offers/offers.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: '',   redirectTo: '/dryFruits', pathMatch: 'full' },
   { path: 'dryFruits', component: DryFruitsComponent},
   { path: '',   redirectTo: '/driedFruits', pathMatch: 'full' },
-  { path: 'driedFruits', component: NutsComponent},
+  { path: 'driedFruits', component: DriedFruitsComponent},
   { path: '',   redirectTo: '/spices', pathMatch: 'full' },
   { path: 'spices', component: SpicesComponent},
  

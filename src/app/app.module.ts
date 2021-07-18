@@ -16,6 +16,7 @@ import { NutsComponent } from './nuts/nuts.component';
 import { SpicesComponent } from './spices/spices.component';
 import { ComboOfferComponent } from './combo-offer/combo-offer.component';
 import { ShopComponent } from './shop/shop.component';
+import { DriedFruitsComponent } from './dried-fruits/dried-fruits.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ShopComponent } from './shop/shop.component';
     NutsComponent,
     SpicesComponent,
     ComboOfferComponent,
-    ShopComponent
+    ShopComponent,
+    DriedFruitsComponent
   ],
   imports: [
     BrowserModule,
