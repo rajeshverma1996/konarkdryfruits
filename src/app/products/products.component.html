@@ -1,0 +1,24 @@
+<div >
+ 
+    <div class="imageBox text-link"  routerLink={{productUrl}}>
+        <div class="imgDiv">
+          <img [src]="imgUrl" alt="" class="img-fluid">
+        </div>
+        <div class="">
+          <p>
+          <strong>{{productName | uppercase}}
+        <br>{{Qty}} {{Unit}}</strong> 
+        </p>
+
+       
+         <p><span class="price"><del><span class="woocommerce-Price-amount amount"><bdi>
+          <span class="woocommerce-Price-currencySymbol">₹</span>{{MRP   | number : '1.2-2'}}</bdi></span></del>
+    <ins><span class="woocommerce-Price-amount amount sellPriceAmount"><bdi>
+          <span class="woocommerce-Price-currencySymbol">₹</span>{{sellPrice  | number : '1.2-2'}}</bdi>
+        </span> <br><span>(₹ {{halfSellPrice  | number : '1.2-2'}} /{{halfUnit}})</span></ins></span></p>
+<div class=""><button class="cart" type="submit">ADD TO CART</button></div>
+
+      </div>
+       
+      </div>
+      </div>
