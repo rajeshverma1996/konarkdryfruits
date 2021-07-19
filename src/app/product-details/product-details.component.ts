@@ -248,7 +248,7 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 13:{
-        this.productName = 'Normal Raisin';
+        this.productName = 'Normal Golden Raisin';
         break;
       }
       case 14:{
@@ -366,43 +366,57 @@ export class ProductDetailsComponent implements OnInit {
   getProductDescription(productId:number){
     switch(productId){
       case 1:{
-        this.prodDescription = 'PREMIUM W-180';
+        this.prodDescription = `Cashews, the sweet, buttery nuts aren’t just delicious but have a gamut of health benefits. With zero cholesterol and high levels of minerals, cashews improve blood circulation, control blood cholesterol, and are effective for weight management. Cashews are also a rich source of antioxidants, and monounsaturated fats, which promote cardiovascular health.
+        DryFruit Basket brings you a collection of classic and new varieties, including Roasted Kaju,Chocolate Cashews,Mint Cashews and Chat Cashews .
+        `;
         break;
       }
       case 2:{
-        this.prodDescription = 'PREMIUM W-210 CASHEW';
+        this.prodDescription =  `Cashews, the sweet, buttery nuts aren’t just delicious but have a gamut of health benefits. With zero cholesterol and high levels of minerals, cashews improve blood circulation, control blood cholesterol, and are effective for weight management. Cashews are also a rich source of antioxidants, and monounsaturated fats, which promote cardiovascular health.
+        DryFruit Basket brings you a collection of classic and new varieties, including Roasted Kaju,Chocolate Cashews,Mint Cashews and Chat Cashews .
+        `;;
         break;
       }
       case 3:{
-        this.prodDescription = 'PREMIUM W-240 CASHEW';
+        this.prodDescription =  `Cashews, the sweet, buttery nuts aren’t just delicious but have a gamut of health benefits. With zero cholesterol and high levels of minerals, cashews improve blood circulation, control blood cholesterol, and are effective for weight management. Cashews are also a rich source of antioxidants, and monounsaturated fats, which promote cardiovascular health.
+        DryFruit Basket brings you a collection of classic and new varieties, including Roasted Kaju,Chocolate Cashews,Mint Cashews and Chat Cashews .
+        `;;
         break;
       }
       case 4:{
-        this.prodDescription = 'PREMIUM W-320 CASHEW';
+        this.prodDescription =  `Cashews, the sweet, buttery nuts aren’t just delicious but have a gamut of health benefits. With zero cholesterol and high levels of minerals, cashews improve blood circulation, control blood cholesterol, and are effective for weight management. Cashews are also a rich source of antioxidants, and monounsaturated fats, which promote cardiovascular health.
+        DryFruit Basket brings you a collection of classic and new varieties, including Roasted Kaju,Chocolate Cashews,Mint Cashews and Chat Cashews .
+        `;;
         break;
       }
       case 5:{
-        this.prodDescription = 'PREMIUM  CASHEW JH(1/2 PIECE)';
+        this.prodDescription =  `Cashews, the sweet, buttery nuts aren’t just delicious but have a gamut of health benefits. With zero cholesterol and high levels of minerals, cashews improve blood circulation, control blood cholesterol, and are effective for weight management. Cashews are also a rich source of antioxidants, and monounsaturated fats, which promote cardiovascular health.
+        DryFruit Basket brings you a collection of classic and new varieties, including Roasted Kaju,Chocolate Cashews,Mint Cashews and Chat Cashews .
+        `;;
         break;
       }
       case 6:{
-        this.prodDescription= 'California Almond ';
+        this.prodDescription= `Almonds are storehouses of nutrition; of all the tree nuts, they have the highest amounts of proteins, fibers, calcium and vitamins B2 (riboflavin), B3 (niacin) and E. They are naturally low in sugar and unhealthy fats. Almonds help prevent cardiovascular diseases, promote gastrointestinal health, aids in weight loss, and helps prevent hair loss.
+                        Buy different varieties of almonds, including Mamra Badams, American Badams and Chocolate Almonds , online at DryFruit Basket, from anywhere in India.
+                           `;
         break;
       }
       case 7:{
-        this.prodDescription = 'Regular Almond';
+        this.prodDescription = `Almonds are storehouses of nutrition; of all the tree nuts, they have the highest amounts of proteins, fibers, calcium and vitamins B2 (riboflavin), B3 (niacin) and E. They are naturally low in sugar and unhealthy fats. Almonds help prevent cardiovascular diseases, promote gastrointestinal health, aids in weight loss, and helps prevent hair loss.
+                         Buy different varieties of almonds, including Mamra Badams, American Badams and Chocolate Almonds , online at DryFruit Basket, from anywhere in India.
+                            `;
         break;
       }
       case 8:{
-        this.prodDescription= 'Afgani Black Raisin';
+        this.prodDescription= `From reducing hair loss, eliminating impurities from blood, reducing high blood pressure to keeping anemia at bay, black raisins are a wonderful additon to your diet as it contains natural anti-oxidants and are rich in iron. Include a handful of black raisins in your everyday breakfast for faster results.`;
         break;
       }
       case 9:{
-        this.prodDescription = 'Black Raisin';
+        this.prodDescription = `From reducing hair loss, eliminating impurities from blood, reducing high blood pressure to keeping anemia at bay, black raisins are a wonderful additon to your diet as it contains natural anti-oxidants and are rich in iron. Include a handful of black raisins in your everyday breakfast for faster results.`;
         break;
       }
       case 10:{
-        this.prodDescription = 'Golden Raisin';
+        this.prodDescription = `Raisins contain healthy vitamins and minerals. They are also fat-free and cholesterol-free, high in antioxidants, and an excellent source of fiber.`;
         break;
       }
       case 11:{
@@ -414,7 +428,7 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 13:{
-        this.prodDescription= 'Normal Raisin';
+        this.prodDescription= `Raisins contain healthy vitamins and minerals. They are also fat-free and cholesterol-free, high in antioxidants, and an excellent source of fiber.`;
         break;
       }
       case 14:{
@@ -426,31 +440,43 @@ export class ProductDetailsComponent implements OnInit {
         break;
       }
       case 16:{
-        this.prodDescription= 'Special Gold Anjeer';
+        this.prodDescription= `Moist, juicy and dry, anjir (or figs) at DryFruit Basket are a true delicacy. Anjir makes a part of every dietary recommendation, being low fat, low sodium, low cholesterol and high fiber. It also has the highest mineral content among other common fruits. Anjir helps maintain blood pressure, decreases water retention, and promotes bone health.`;
         break;
       }
       case 17:{
-        this.prodDescription = 'Barari Dates';
+        this.prodDescription = `Very Nutritious. Share on Pinterest.High in Fiber. Getting enough fiber is important for your overall health.
+        High in Disease-Fighting Antioxidants. May Promote Brain Health, May Promote Natural Labor, Excellent Natural Sweetener
+        `;
         break;
       }
       case 18:{
-        this.prodDescription = 'Barari Dates';
+        this.prodDescription = `Very Nutritious. Share on Pinterest.High in Fiber. Getting enough fiber is important for your overall health.
+        High in Disease-Fighting Antioxidants. May Promote Brain Health, May Promote Natural Labor, Excellent Natural Sweetener
+        `;
         break;
       }
       case 19:{
-        this.prodDescription = 'Gulf Dates';
+        this.prodDescription = `Very Nutritious. Share on Pinterest.High in Fiber. Getting enough fiber is important for your overall health.
+        High in Disease-Fighting Antioxidants. May Promote Brain Health, May Promote Natural Labor, Excellent Natural Sweetener
+        `;
         break;
       }
       case 20:{
-        this.prodDescription= 'Royal Crown Dates';
+        this.prodDescription= `Very Nutritious. Share on Pinterest.High in Fiber. Getting enough fiber is important for your overall health.
+        High in Disease-Fighting Antioxidants. May Promote Brain Health, May Promote Natural Labor, Excellent Natural Sweetener
+        `;
         break;
       }
       case 21:{
-        this.prodDescription= 'Royal Crown White Dates';
+        this.prodDescription=`Very Nutritious. Share on Pinterest.High in Fiber. Getting enough fiber is important for your overall health.
+        High in Disease-Fighting Antioxidants. May Promote Brain Health, May Promote Natural Labor, Excellent Natural Sweetener
+        `;
         break;
       }
       case 22:{
-        this.prodDescription = 'Tuba Dates';
+        this.prodDescription = `Very Nutritious. Share on Pinterest.High in Fiber. Getting enough fiber is important for your overall health.
+        High in Disease-Fighting Antioxidants. May Promote Brain Health, May Promote Natural Labor, Excellent Natural Sweetener
+        `;
         break;
       }
       case 23:{
